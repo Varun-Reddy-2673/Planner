@@ -23,7 +23,10 @@ The Domain manager is where the user manages their domains.
 ## Installation steps
 
 <ol>
-<li>Planner</li>
+<li>Download the repository on your local computer</li>
+<li>Run **setup.sql**</li>
+<li>Open main.py and enter your own SQL password in line 5</li>
+<li>Run main.py</li>
 </ol>
 
 ## Technologies used
