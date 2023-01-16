@@ -23,7 +23,7 @@ The Domain manager is where the user manages their domains.
 ## Installation steps
 
 <ol>
-<li>Hello World!</li>
+<li>Planner</li>
 </ol>
 
 ## Technologies used
