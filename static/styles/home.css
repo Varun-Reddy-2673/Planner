@@ -1,0 +1,17 @@
+.content {
+    width: 80%;
+    margin: 60px 10% 0px 10%;
+}
+.col-65 {
+    width: 65%;
+    float: left;
+}
+.col-35 {
+    width: 35%;
+    float: right;
+}
+img {
+    width: 80%;
+    height: auto;
+    margin: 10px 10% 10px 10%;
+}

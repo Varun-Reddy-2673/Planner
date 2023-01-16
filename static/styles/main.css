@@ -1,0 +1,106 @@
+@font-face {
+    font-family: regular;
+    src: url('fonts/regular.otf');
+}
+@font-face {
+    font-family: heading;
+    src: url('fonts/heading.otf');
+}
+body {
+    background-color: rgb(49, 62, 71);
+    font-family: regular;
+    font-size: 20px;
+}
+.bar {
+    background-color: rgb(14, 14, 28);
+    color: rgb(239, 252, 255);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    padding: 8px 40px 12px 40px;
+    margin: 0px;
+    font-family: heading;
+    font-size: 40px;
+    letter-spacing: 2px;
+    position: fixed;
+}
+.box {
+    background-color: rgb(91, 105, 118);
+    color: rgb(255, 255, 255);
+    padding: 30px 30px 30px 30px;
+    border-radius: 15px;
+    margin: 40px 20px 40px 20px;
+}
+.heading {
+    color: rgb(204, 204, 204);
+    font-family: heading;
+    font-size: 30px;
+}
+.sub-heading {
+    color: rgb(230, 230, 230);
+    font-family: heading;
+    font-size: 25px;
+}
+.textbox {
+    background-color: rgb(233, 236, 236);
+    width: 225px;
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+    border: 0px solid rgb(117, 194, 233);
+    border-width: 0px 0px 4px 0px;
+    border-radius: 4px;
+    font-family: regular;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+}
+.textbox:hover {
+    border: 0px solid rgb(36, 157, 218);
+    border-width: 0px 0px 4px 0px;
+}
+.textbox:active {
+    border: 0px solid rgb(11, 138, 202);
+    border-width: 0px 0px 4px 0px;
+}
+button {
+    background-color: rgb(28, 157, 226);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    padding: 0px 15px 0px 15px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 10px 20px 10px 0px;
+    border-radius: 10px;
+    font-family: regular;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+button:hover {
+    background-color: rgb(15, 109, 159);
+}
+button:active {
+    background-color: rgb(6, 75, 113);
+}
+.nav {
+    background-color: rgb(87, 109, 131);
+    color: rgb(255, 255, 255);
+    padding: 20px 30px 20px 30px;
+    border-radius: 15px;
+    margin: 40px 20px 40px 20px;
+    font-size: 25px;
+}
+.highlight {
+    color: rgb(188, 233, 255);
+}
+.link {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.link:hover {
+    color: rgb(173, 183, 194);
+}
+.link:active {
+    color: rgb(132, 152, 168);
+}

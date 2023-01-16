@@ -1,0 +1,43 @@
+.content {
+    width: 80%;
+    margin: 100px 10% 0px 10%;
+}
+.col-100 {
+    width: 100%;
+}
+.domain-list {
+    margin: 20px auto 20px auto;
+}
+.domain-list th, .domain-list td {
+    height: 35px;
+}
+.domain-list th {
+    background-color: rgb(75, 81, 83);
+    color: rgb(255, 255, 255);
+}
+.domain-list td {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.domain-list .sl-no {
+    width: 150px;
+}
+.domain-list .title {
+    width: 600px;
+}
+.domain-list .options {
+    width: 200px;
+    cursor: pointer;
+}
+.textbox-long {
+    background-color: rgb(219, 227, 237);
+    width: 225px;
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+    border: 2px solid rgb(51, 75, 87);
+    border-radius: 4px;
+    font-family: regular;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Planner</title>
+        <link rel = 'stylesheet' type = 'text/css' href = 'styles/main.css'>
+        <link rel = 'stylesheet' type = 'text/css' href = 'styles/dashboard.css'>
+        <script src = 'scripts/dashboard.js'></script>
+    </head>
+    <body>
+        <div class = 'bar'>
+            <span>planner</span>
+        </div>
+        <div class = 'content'>
+            <div class = 'col-100'>
+                <div class = 'nav'>
+                    <span class = 'highlight'>Dashboard</span> &ensp; | &ensp; <span class = 'link' onclick = 'window.location = "task.html"'>Task manager</span> &ensp; | &ensp; <span class = 'link' onclick = 'window.location = "domain.html"'>Domain manager</span>
+                </div>
+                <div class = 'box'>
+                    <span id = 'span_slot_title' class = 'heading'></span>
+                    <p><span id = 'span_caption' class = 'sub-heading'></span></p>
+                    <p><span id = 'span_domain_list'></span></p>
+                    <ol id = 'ol_task_list'></ol>
+                    <span id = 'span_delete_button'></span>
+                </div>
+                <div class = 'box'>
+                    <span class = 'heading'>Timetable</span>
+                    <table id = 'table' class = 'timetable'></table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+.content {
+    width: 80%;
+    margin: 100px 10% 0px 10%;
+}
+.col-100 {
+    width: 100%;
+}
+.timetable {
+    margin: 20px auto 20px auto;
+}
+.timetable th, .timetable td {
+    width: 140px;
+    height: 35px;
+}
+.timetable th {
+    background-color: rgb(75, 81, 83);
+    color: rgb(255, 255, 255);
+}
+.timetable td {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.time {
+    background-color: rgb(210, 210, 210);
+    color: rgb(75, 81, 83);
+}
+li {
+    height: 30px;
+}

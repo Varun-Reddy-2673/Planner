@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Planner</title>
+        <link rel = 'stylesheet' type = 'text/css' href = 'styles/main.css'>
+        <link rel = 'stylesheet' type = 'text/css' href = 'styles/domain.css'>
+        <script src = 'scripts/domain.js'></script>
+    </head>
+    <body>
+        <div class = 'bar'>
+            <span>planner</span>
+        </div>
+        <div class = 'content'>
+            <div class = 'col-100'>
+                <div class = 'nav'>
+                    <span class = 'link' onclick = 'window.location = "dashboard.html"'>Dashboard</span> &ensp; | &ensp; <span class = 'link' onclick = 'window.location = "task.html"'>Task manager</span> &ensp; | &ensp; <span class = 'highlight'>Domain manager</span>
+                </div>
+                <div class = 'box'>
+                    <span class = 'heading'>Domain manager</span>
+                    <table id = 'table' class = 'domain-list'></table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

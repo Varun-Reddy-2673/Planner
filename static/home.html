@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Planner</title>
+        <link rel = 'stylesheet' type = 'text/css' href = 'styles/main.css'>
+        <link rel = 'stylesheet' type = 'text/css' href = 'styles/home.css'>
+        <script src = 'scripts/home.js'></script>
+    </head>
+    <body>
+        <div class = 'bar'>
+            <span>planner</span>
+        </div>
+        <div class = 'content'>
+            <div class = 'col-65'>
+                <div class = 'box'>
+                    <p><span class = 'heading'>Welcome back!</span></p>
+                    <img src = 'images/slide.png'>
+                </div>
+            </div>
+            <div class = 'col-35'>
+                <div class = 'box'>
+                    <p><span class = 'heading'>Sign in</span></p>
+                    <p>Enter your username</p>
+                    <input id = 'input_sign_in_username' class = 'textbox' type = 'text'>
+                    <p>Enter your password</p>
+                    <input id = 'input_sign_in_password' class = 'textbox' type = 'password'>
+                    <br><br><button onclick = 'sign_in ()'>SUBMIT</button>
+                </div>
+                <div class = 'box'>
+                    <p><span class = 'heading'>Sign up</span></p>
+                    <p>Choose a username</p>
+                    <input id = 'input_sign_up_username' class = 'textbox' type = 'text'>
+                    <p>Choose a password</p>
+                    <input id = 'input_sign_up_password' class = 'textbox' type = 'password'>
+                    <p>Re-enter the password</p>
+                    <input id = 'input_sign_up_password_re' class = 'textbox' type = 'password'>
+                    <br><br><button onclick = 'sign_up ()'>SUMBIT</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
