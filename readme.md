@@ -27,6 +27,7 @@ The Domain manager is where the user manages their domains.
 <li>Load the SQL database by running 'mysql -u root -p < setup.sql'</li>
 <li>Open main.py and enter your own SQL password in line 5</li>
 <li>Run main.py</li>
+<li>Go to 'http://0.0.0.0:3000/static/home.html'</li>
 </ol>
 
 ## Technologies used
